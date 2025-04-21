@@ -42,7 +42,9 @@ io.on('connection', (socket) => {
 
 //server.listen(3000, () => console.log("🚀 Server on http://localhost:3000"));
 
-server.listen(3000, '192.168.98.40', () => {
+server.listen(3000);
+
+/*server.listen(3000, '192.168.98.40', () => {
     console.log("Server running on http://192.168.98.40:3000 or your IP address");
-  });
+  });*/
   
