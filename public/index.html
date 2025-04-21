@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Call</title>
+  <style>
+    video { width: 45%; margin: 5px; border: 2px solid #333; }
+    button { margin: 5px; }
+  </style>
+</head>
+<body>
+  <h2>Video Call Room</h2>
+  <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay></video><br>
+  <button id="startWebcam">Start Webcam</button>
+  <button id="shareScreen">Share Screen</button>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
